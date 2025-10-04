@@ -1,6 +1,6 @@
 # Systolic Array for 4x4 Matrix Multiplication in Vitis Model Composer
 
-This project is a hardware accelerator for 4x4 matrix multiplication designed using **Vitis Model Composer**. It implements a systolic array architecture to maximize parallelism for loading, computing, and unloading data. The design operates on 16-bit two's complement integer data.
+This project is done as a class project for ELEC 522: Advanced VLSI Design at Rice University. The project is to design a hardware accelerator for 4x4 matrix multiplication designed using **Vitis Model Composer**. It implements a systolic array architecture to maximize parallelism for loading, computing, and unloading data. The design operates on 16-bit two's complement integer data.
 
 ---
 
