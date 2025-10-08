@@ -22,7 +22,7 @@ The 16 PEs are connected in a 2D grid to form the complete systolic array
 
 ### Dataflow
 
-The array uses a systolic dataflow to achieve a high degree of pipelining. For a single matrix-matrix multiplication, data loading begins and the final computation completes on clock cycle 13. The unloadng of the final result finishes on cycle 16.
+The array uses a systolic dataflow to achieve a high degree of pipelining. For a single matrix-matrix multiplication, data loading begins and the final computation completes on clock cycle 13. The unloading of the final result finishes on cycle 16.
 
 Data enters the top left processing element from two directions. Data is unloaded column by column to the right and cleared with a systolically passed reset signal.
 
